@@ -1,0 +1,311 @@
+
+{
+  "ca_objects": [
+        {
+          "idno":[
+            {"element_code":"idno",
+              "require" : true,
+              "list_id" : "",
+              "title":["Object identifier"]}
+        ],
+          "type_id" : [
+            {"element_code":"type_id",
+             "require" : true,
+             "list_id" : "object_types",
+             "title":["Item type"]}
+          ],
+          
+          "is_deaccessioned" : [
+            {"element_code":"is_deaccessioned",
+            "list_id" : "",
+             "title":["Is deaccessioned"]}
+          ],
+
+          "deaccession_type_id" : [
+            {"element_code":"deaccession_type_id",
+             "list_id" : "",
+             "title":["Deaccession type"],
+             "LIST_CODE" :"object_deaccession_types"}
+          ],
+
+          "deaccession_date" : [
+            {"element_code":"deaccession_date",
+             "list_id" : "",
+             "title":["Date of deaccession"]}
+          ],
+          
+          "deaccession_notes" : [
+            {"element_code":"deaccession_notes",
+             "list_id" : "",
+             "title":["Deaccession notes"]}
+          ],  
+          
+          "lot_id" : [
+            {"element_code":"lot_id",
+             "list_id" : "", 
+             "title":["Lot"]}
+          ], 
+          
+          "source_id" : [
+            {"element_code":"source_id",
+              "require" : true,
+             "list_id" : "object_sources", 
+             "title":["Source"],
+             "LIST_CODE" :"object_sources"}
+          ], 
+
+          "item_status" : [
+            {"element_code":"status",
+             "list_id" : "",
+             "title":["Accession status"],
+             "LIST_CODE" :"object_sources"}
+          ], 
+
+          "access" : [
+            {"element_code":"access",
+             "list_id" : "",
+             "title":["Access"]}
+          ]
+        }    
+  ],
+  "ca_object_lots":[
+    {
+      "idno_stub":[
+        {"element_code":"idno_stub",
+          "require" : true,
+          "list_id" : "",
+          "title":["Object identifier"]}
+    ],
+    "lot_status_id":[
+      {"element_code":"lot_status_id",
+        "require" : true,
+        "list_id" : "object_lot_statuses",
+        "title":["status"]}
+  ],
+      "type_id" : [
+      {"element_code":"type_id",
+       "require" : true,
+       "list_id" : "object_lot_types",
+       "title":["Item type"]}
+      ],
+      "source_id" : [
+        {"element_code":"source_id",
+          "require" : true,
+         "list_id" : "object_lot_sources", 
+         "title":["Source"],
+         "LIST_CODE" :"object_sources"}
+      ]
+    }
+  ],
+  "ca_entities":[
+    {
+      "idno":[
+        {"element_code":"idno",
+          "require" : true,
+          "list_id" : "",
+          "title":["idno"]}
+    ],
+      "type_id" : [
+        {"element_code":"type_id",
+         "require" : true,
+         "list_id" : "entity_types",
+         "title":["Item type"]}
+        ],
+
+      "lifespan" : [
+      {"element_code":"lifespan",
+        "list_id" : "",
+        "title":["Lifespan"]}
+      ],
+
+      "access" : [
+      {"element_code":"access",
+       "list_id" : "",
+       "title":["Access"]}
+    ],
+      "source_id" : [
+        {"element_code":"source_id",
+          "require" : true,
+        "list_id" : "entity_sources", 
+        "title":["Source"],
+        "LIST_CODE" :"object_sources"}
+      ]}
+    
+  ],
+  "ca_collections":[
+    {
+      "idno":[
+        {"element_code":"idno",
+          "require" : true,
+          "list_id" : "",
+          "title":["idno"]}
+    ],
+      "type_id" : [
+        {"element_code":"type_id",
+         "require" : true,
+         "list_id" : "collection_types",
+         "title":["Item type"]}
+        ],
+        
+      "access" : [
+      {"element_code":"access",
+       "list_id" : "",
+       "title":["Access"]}
+    ],
+      "source_id" : [
+        {"element_code":"source_id",
+          "require" : true,
+        "list_id" : "collection_sources", 
+        "title":["Source"],
+        "LIST_CODE" :"object_sources"}
+      ]}
+  
+  ],
+  "ca_loans":[
+    {
+      "idno":[
+        {"element_code":"idno",
+          "require" : true,
+          "list_id" : "",
+          "title":["idno"]}
+    ],
+      "type_id" : [
+        {"element_code":"type_id",
+         "require" : true,
+         "list_id" : "loan_types",
+         "title":["Item type"]
+        }
+    ],
+      "source_id" : [
+        {"element_code":"source_id",
+          "require" : true,
+        "list_id" : "loan_sources", 
+        "title":["Source"],
+        "LIST_CODE" :"object_sources"}
+      ]}
+  ],
+  "ca_places":[
+    {
+      "idno":[
+        {"element_code":"idno",
+          "require" : true,
+          "list_id" : "",
+          "title":["idno"]}
+    ],
+      "type_id" : [
+        {"element_code":"type_id",
+         "require" : true,
+         "list_id" : "place_types",
+         "title":["Item type"]
+        }
+      ],
+      "source_id" : [
+        {"element_code":"source_id",
+          "require" : true,
+         "list_id" : "place_sources", 
+         "title":["Source"],
+         "LIST_CODE" :"object_sources"}
+      ]}
+  
+  ],
+  "ca_movements":[
+    {
+      "idno":[
+        {"element_code":"idno",
+          "require" : true,
+          "list_id" : "",
+          "title":["idno"]}
+    ],
+      "type_id" : [
+        {"element_code":"type_id",
+         "require" : true,
+         "list_id" : "movement_types",
+         "title":["Item type"]
+        }
+      ],
+      "source_id" : [
+        {"element_code":"source_id",
+          "require" : true,
+         "list_id" : "movement_sources", 
+         "title":["Source"],
+         "LIST_CODE" :"object_sources"}
+      ]}
+  
+  ],
+  "ca_storage_locations":[
+    {
+      "idno":[
+        {"element_code":"idno",
+          "require" : true,
+          "list_id" : "",
+          "title":["idno"]}
+    ],
+      "type_id" : [
+        {"element_code":"type_id",
+         "require" : true,
+         "list_id" : "storage_location_types",
+         "title":["Item type"]
+        }
+      ],
+      "source_id" : [
+        {"element_code":"source_id",
+          "require" : true,
+         "list_id" : "storage_location_sources", 
+         "title":["Source"],
+         "LIST_CODE" :"object_sources"}
+      ]}
+  
+  ],
+  "ca_list_items":[
+    {
+      "idno":[
+        {"element_code":"idno",
+          "require" : true,
+          "list_id" : "",
+          "title":["idno"]}
+    ],
+      "type_id" : [
+        {"element_code":"type_id",
+         "require" : true,
+         "list_id" : "list_item_types",
+         "title":["Item type"]
+        }
+      ],
+      "source_id" : [
+        {"element_code":"source_id",
+          "require" : true,
+         "list_id" : "list_item_sources", 
+         "title":["Source"],
+         "LIST_CODE" :"object_sources"}
+      ]}
+  ],
+  "ca_occurrences":[
+    {
+      "idno":[
+        {"element_code":"idno",
+          "require" : true,
+          "list_id" : "",
+          "title":["idno"]}
+    ],
+      "type_id" : [
+        {"element_code":"type_id",
+         "require" : true,
+         "list_id" : "occurrence_types",
+         "title":["Item type"]}
+        ],
+        
+      "access" : [
+      {"element_code":"access",
+      "list_id" : "",
+      "title":["Access"]}
+    ],
+    "source_id" : [
+      {"element_code":"source_id",
+        "require" : true,
+       "list_id" : "occurrence_sources", 
+       "title":["Source"],
+       "LIST_CODE" :"object_sources"}
+    ]}
+  ] 
+}
+  
